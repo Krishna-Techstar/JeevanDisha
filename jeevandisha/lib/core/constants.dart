@@ -1,8 +1,8 @@
 class AppConstants {
   AppConstants._();
 
-  /// Android emulator → host machine. Change for device/production.
-  static const String apiBase = "http://10.0.2.2:5000/api";
+  /// Production cloud API endpoint on Render
+  static const String apiBase = "https://jeevandisha.onrender.com/api";
   static const String apiBaseUrl = apiBase;
 
   static const Duration timeout = Duration(seconds: 15);
